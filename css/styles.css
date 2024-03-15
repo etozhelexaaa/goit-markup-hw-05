@@ -880,7 +880,16 @@ a:focus {
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border-color: #4D5AE5;
     
 
+
+}
+
+.checkwind {
+    margin-bottom: 24px;
+}
+
+.fivepoint {
+    margin-bottom: 24px;
+    
 }
