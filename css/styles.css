@@ -916,5 +916,11 @@ a:focus {
 }
 
 .policysvg {
-    
+
+}
+
+#user-privacy:checked + .terms .policy {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
