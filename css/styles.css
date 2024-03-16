@@ -788,26 +788,19 @@ a:focus {
 .windowbutton:hover {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff
 }
 
 .windowbutton:focus {
     background-color: #404bbf;
     border: none;
-
-}
-
-.windowbutton {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.windowbutton:hover {
     fill: #ffffff
+
 }
 
-.windowbutton:focus {
-    fill: #ffffff
-}
+
+
+
 
 .modalparagraf {
     font-weight: 500;
