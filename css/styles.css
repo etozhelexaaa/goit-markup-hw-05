@@ -796,16 +796,16 @@ a:focus {
 
 }
 
-.svgbuttonwindow {
+.windowbutton {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.svgbuttonwindow:hover {
+.windowbutton:hover {
     fill: #ffffff
 }
 
-.svgbuttonwindow:focus {
+.windowbutton:focus {
     fill: #ffffff
 }
 
@@ -945,5 +945,6 @@ a:focus {
     background-color: #4D5AE5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
 
 }
