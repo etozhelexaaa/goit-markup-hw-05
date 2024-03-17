@@ -15,7 +15,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://fonts.gstatic.com">
 
-
+    <script>
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+    
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+    </script>
 
 </head>
 <body>
@@ -51,7 +59,7 @@
        <section class="top">
         <div class="container">
             <h1 class="slogan">Effective Solutions for Your Business</h1>
-            <button type="button" class="button">Order Service</button>
+            <button type="button" class="button" onclick="openModal()">Order Service</button>
         </div>    
        </section>       
             
@@ -380,9 +388,9 @@
         </div>
     </div>
 </footer>
-<div class="windcontainer">
+<div class="windcontainer" id="myModal">
     <div class="window">
-        <button type="button" class="windowbutton">
+        <button type="button" class="windowbutton" onclick="closeModal()">
             <svg width="8" height="8" class="svgbuttonwindow">
                 <use href="./images/icons.svg#icon-close"></use>
             </svg>
